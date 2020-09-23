@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15</title>
+    <style>
+        body{
+            border: 2px solid;
+            outline: 10px solid red;
+        }
+        div{
+            border: 2px solid;
+            outline: double green;
+            outline-width: 10px;
+            outline-offset: 2px;
+            margin: 15px;
+        }
+        h1{
+            text-align: center;
+            border: 2px solid;
+            outline: 5px dashed lightgreen;
+            outline-offset: 2px;
+            margin: 20px 500px;
+        }
+        p{
+            text-align: justify;
+            font-size: 18px;
+            border: 2px solid;
+            outline: 5px dotted blue;
+            outline-offset: 2px;
+            margin: 10px;
+            margin-top: 30px;
+            padding: 5px;
+        }
+        ul{
+            text-align: justify;
+            font-size: 18px;
+            list-style-position: inside;
+            border: 2px solid;
+            outline: 3px dotted orange;
+            outline-offset: 2px;
+            margin: 10px;
+            margin-top: 30px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Border e Outline</h1>
+        <p>
+            A outline propriedade CSS circunda um elemento com uma linha fora da borda. Não afeta o layout , a posição ou o tamanho
+            do elemento, uma vez que não ocupa espaço.<br/><br/>
+            Contornos e bordas parecem semelhantes em suas características e definições. No entanto, aqui estão os pontos principais
+            a serem lembrados para saber a solução para o problema de contorno vs borda de CSS:
+        </p>
+        <ul>
+            <li>
+                Os contornos sempre adicionam linhas em todos os lados do elemento, enquanto as bordas em lados diferentes podem ser
+                definidas separadamente.
+            </li>
+            <li>Os contornos não pertencem ao modelo de caixa CSS . Portanto, não afeta o layout do elemento.</li>
+            <li>Os contornos não seguem o raio da borda .</li>
+            <li>Os contornos nem sempre são retangulares , mas geralmente são.</li>
+        </ul>
+    </div>
+</body>
+</html>
